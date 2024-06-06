@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <stage id="1">
+        <Name>Планирование</Name>
+        <DateStart>2022-01-01</DateStart>
+        <Duration>30 дней</Duration>
+        <Users>
+            <User>Иванов</User>
+            <User>Петров</User>
+        </Users>
+    </stage>
+    <stage id="2">
+        <Name>Разработка</Name>
+        <DateStart>2022-01-31</DateStart>
+        <Duration>60 дней</Duration>
+        <Users>
+            <User>Сидорова</User>
+            <User>Козлов</User>
+        </Users>
+        <connectStage>1</connectStage>
+    </stage>
+    <stage id="3">
+        <Name>Тестирование</Name>
+        <DateStart>2022-03-31</DateStart>
+        <Duration>15 дней</Duration>
+        <Users>
+            <User>Иванова</User>
+            <User>Сидоров</User>
+        </Users>
+        <connectStage>2</connectStage>
+    </stage>
+</project>
